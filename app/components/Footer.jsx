@@ -16,25 +16,25 @@ const Footer = () => {
           <h1 className="font-medium text-xl pb-4 pt-5 md:pt-0">Links</h1>
           <nav className="flex flex-col gap-2">
             <a
-              className="hover:text-backgroundColor transition-all cursor-pointer"
+              className="hover:text-blue-500 transition-all cursor-pointer"
               href="/"
             >
               Home
             </a>
             <a
-              className="hover:text-backgroundColor transition-all cursor-pointer"
+              className="hover:text-blue-500 transition-all cursor-pointer"
               href="/"
             >
               About Us
             </a>
             <a
-              className="hover:text-backgroundColor transition-all cursor-pointer"
+              className="hover:text-blue-500 transition-all cursor-pointer"
               href="/"
             >
               Our Services
             </a>
             <a
-              className="hover:text-backgroundColor transition-all cursor-pointer"
+              className="hover:text-blue-500 transition-all cursor-pointer"
               href="/"
             >
               Reviews
@@ -47,19 +47,19 @@ const Footer = () => {
           </h1>
           <nav className="flex flex-col gap-2">
             <a
-              className="hover:text-backgroundColor transition-all cursor-pointer"
+              className="hover:text-blue-500 transition-all cursor-pointer"
               href="/"
             >
               Careers
             </a>
             <a
-              className="hover:text-backgroundColor transition-all cursor-pointer"
+              className="hover:text-blue-500 transition-all cursor-pointer"
               href="/"
             >
               Blog
             </a>
             <a
-              className="hover:text-backgroundColor transition-all cursor-pointer"
+              className="hover:text-blue-500 transition-all cursor-pointer"
               href="/"
             >
               Help & FAQs
@@ -70,19 +70,19 @@ const Footer = () => {
           <h1 className="font-medium text-xl pb-4 pt-5 md:pt-0">Contact Us</h1>
           <nav className="flex flex-col gap-2">
             <a
-              className="hover:text-backgroundColor transition-all cursor-pointer"
+              className="hover:text-blue-500 transition-all cursor-pointer"
               href="/"
             >
               swiftHR@gmail.com
             </a>
             <a
-              className="hover:text-backgroundColor transition-all cursor-pointer"
+              className="hover:text-blue-500 transition-all cursor-pointer"
               href="/"
             >
               +234 777 888 999
             </a>
             <a
-              className="hover:text-backgroundColor transition-all cursor-pointer"
+              className="hover:text-blue-500 transition-all cursor-pointer"
               href="/"
             >
               Social Media
@@ -94,7 +94,7 @@ const Footer = () => {
       <div>
         <p className="text-center py-4">
           @copyright developed by{" "}
-          <span className="text-backgroundColor">Sanrosheed</span> | All rights
+          <span className="text-blue-500">Sanrosheed</span> | All rights
           reserved.
         </p>
       </div>

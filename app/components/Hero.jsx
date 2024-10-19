@@ -1,12 +1,13 @@
 import React from "react";
 import Image from "next/image";
+import { motion } from "framer-motion";
 // import HRpic from "../../app/images/HR pic.jpg";
 
 const Hero = () => {
   return (
     <div>
       <div class="bg-[url('https://cdn.hashnode.com/res/hashnode/image/upload/v1729338239385/f6bd1fce-bfad-451f-8203-336f5c1b060e.jpeg')] object object-cover bg-cover bg-no-repeat font-[sans-serif] h-screen">
-        <div class="relative overflow-hidden">
+        <div class="overflow-hidden">
           <div class="max-w-screen-xl mx-auto py-16 px-4 sm:px-6 lg:py-32 lg:px-8">
             <div class="relative z-10 mt-16 text-center lg:text-left">
               <h1 class="text-4xl lg:mx-40 tracking-tight leading-10 font-extrabold text-white sm:text-5xl sm:leading-none md:text-6xl lg:text-7xl">
