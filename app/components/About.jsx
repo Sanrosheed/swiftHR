@@ -26,10 +26,6 @@ const About = () => {
             have offered services to a variety of high tech companies such as
             Gooogle, Amazon, Facebook and others.
           </p>
-          <p>
-            A bite gives you an elysian feeling while keeping you elated and
-            nourished
-          </p>
         </div>
       </div>
     </div>
