@@ -7,9 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      backgroundImage: {
+        "hero-pattern":
+          "url('https://cdn.hashnode.com/res/hashnode/image/upload/v1729338239385/f6bd1fce-bfad-451f-8203-336f5c1b060e.jpeg')",
+        // 'footer-texture': "url('/img/footer-texture.png')",
       },
     },
   },
