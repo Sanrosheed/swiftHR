@@ -1,41 +1,28 @@
 import React from "react";
+import ServicesCard from "./layouts/ServicesCard";
+import HR1 from "../images/HR1.jpg";
+import HR2 from "../images/HR2.jpg";
+import HR4 from "../images/HR4.jpg";
 
 const Services = () => {
   return (
-    <div>
-      <div>
-        <div class="bg-gradient-to-r from-gray-900 to-blue-600 font-[sans-serif]">
-          <div class="relative overflow-hidden">
-            <div class="max-w-screen-xl mx-auto py-16 px-4 sm:px-6 lg:py-32 lg:px-8">
-              <div class="relative z-10 text-center lg:text-left">
-                <h1 class="text-4xl lg:mx-40 tracking-tight leading-10 font-extrabold text-white sm:text-5xl sm:leading-none md:text-6xl lg:text-7xl">
-                  Our
-                  <br class="xl:hidden" />
-                  <span class="text-indigo-400"> Services</span>
-                </h1>
-                <p class="max-w-md mx-auto text-lg text-gray-300 sm:text-xl mt-4 md:mt-6 md:max-w-3xl">
-                  Empowering businesses with tailored HR solutions. From
-                  recruitment and talent management to employee engagement and
-                  compliance, we provide comprehensive services to help you
-                  build and nurture a thriving workforce.
-                </p>
-
-                <div class="mt-12 lg:mx-96 flex max-sm:flex-col sm:justify-center lg:justify-start gap-4">
-                  <div class="rounded-md shadow">
-                    <button class="w-full flex items-center justify-center px-8 py-3 text-base tracking-wide rounded-md text-indigo-600 bg-white hover:text-indigo-500 hover:bg-indigo-100 transition duration-150 ease-in-out">
-                      Contact Us
-                    </button>
-                  </div>
-                  <div>
-                    <button class="w-full flex items-center justify-center px-8 py-3 text-base tracking-wide rounded-md text-white bg-indigo-500 hover:bg-indigo-400 transition duration-150 ease-in-out">
-                      Read More
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+    <div id="services">
+      <h1 className="font-semibold text-center text-4xl lg:mt-14 mt-24 mb-8">
+        Our Services
+      </h1>
+      <div className="flex flex-col md:flex-row mt-6 gap-14 justify-around mx-14 md:mx-28 mb-20">
+        <ServicesCard
+          img={HR1}
+          details="Attracting and sourcing potential candidates through various channels such as job boards, social media, and professional networks."
+        />
+        <ServicesCard
+          img={HR2}
+          details="Screening, interviewing, and assessing candidates to identify the best fit for the organization."
+        />
+        <ServicesCard
+          img={HR4}
+          details="Offering opportunities for employees to grow within the organization, including mentorship, leadership programs, or continued education."
+        />
       </div>
     </div>
   );
